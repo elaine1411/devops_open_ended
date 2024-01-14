@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
